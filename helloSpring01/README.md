@@ -13,7 +13,7 @@
     <pre><code>HelloSpring obj = (HelloSpring) context.getBean("helloSpring");</code></pre>
 
 ### 第 3 步：创建 bean 的配置文件([Beans.xml](https://github.com/DaCang/Spring-Learning/blob/master/helloSpring01/src/Beans.xml))
-<pre><code>&lt;!-- id="helloSpring" 唯一标识 --&gt;
+* <pre><code>&lt;!-- id="helloSpring" 唯一标识 --&gt;
 &lt;!-- class="com.songyl.spring.HelloSpring" 所映射的类
      这个属性是强制性的，并且指定用来创建 bean 的 bean 类  --&gt;
 &lt;bean id="helloSpring" class="com.songyl.spring.HelloSpring"&gt;
