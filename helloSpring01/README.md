@@ -2,7 +2,7 @@
 ### 第 1 步：添加所依赖的 JAR 包
 ### 第 2 步：创建 Java 项目
 #### 1)新建实体类 ([HelloSpring.java](https://github.com/DaCang/Spring-Learning/blob/master/helloSpring01/src/com/songyl/spring/HelloSpring.java))
-pre><code>主要是 getter() 和  setter() 方法</code></pre>
+<pre><code>主要是 getter() 和  setter() 方法</code></pre>
 
 #### 2)新建测试类 ([MainApp.java](https://github.com/DaCang/Spring-Learning/blob/master/helloSpring01/src/com/songyl/spring/MainApp.java))
 
