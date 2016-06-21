@@ -15,6 +15,7 @@
           <property name="notes" value="Hello Jack!"/>
       </bean>
 >in [MainApp.java](https://github.com/DaCang/Spring-Learning/blob/master/helloSpring02/src/com/songyl/spring/MainApp.java)
+	
 	ApplicationContext context = new ClassPathXmlApplicationContext("Beans.xml");
 	UserInfo userInfo1 = (UserInfo) context.getBean("userInfo1");
 	System.out.println("Your ID:" + userInfo1.getUserId());
