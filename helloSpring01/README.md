@@ -6,10 +6,10 @@ pre><code>主要是 getter() 和  setter() 方法</code></pre>
 
 #### 2)新建测试类 ([MainApp.java](https://github.com/DaCang/Spring-Learning/blob/master/helloSpring01/src/com/songyl/spring/MainApp.java))
 
-+使用框架 API ClassPathXmlApplicationContext() 来创建应用程序的上下文
++ 使用框架 API ClassPathXmlApplicationContext() 来创建应用程序的上下文
 <pre><code>ApplicationContext context = new ClassPathXmlApplicationContext("Beans.xml");</code></pre>
 
-+使用已创建的上下文的 >getBean() 方法来获得所需的 bean
++ 使用已创建的上下文的 >getBean() 方法来获得所需的 bean
 <pre><code>HelloSpring obj = (HelloSpring) context.getBean("helloSpring");</code></pre>
 
 ### 第 3 步：创建 bean 的配置文件([Beans.xml](https://github.com/DaCang/Spring-Learning/blob/master/helloSpring01/src/Beans.xml))
