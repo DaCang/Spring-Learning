@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+<!-- id="userInfo1" 唯一标识 -->
+<!-- class="com.songyl.spring.UserInfo" 所映射的类
+          这个属性是强制性的，并且指定用来创建 bean 的 bean 类  -->
+<bean id="userInfo1" class="com.songyl.spring.UserInfo" >
+          <property name="userId" value="1"/>
+          <property name="userName" value="Tom"/>
+          <property name="age" value="25"/>
+          <property name="notes" value="Hello Tom!"/>
+</bean>
+<bean id="userInfo2" class="com.songyl.spring.UserInfo">
+          <property name="userId" value="2"/>
+          <property name="userName" value="Jack"/>
+          <property name="age" value="25"/>
+          <property name="notes" value="Hello Jack!"/>
+</bean>
+</beans>
